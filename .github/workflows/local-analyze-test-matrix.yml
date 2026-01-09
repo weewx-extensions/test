@@ -1,4 +1,4 @@
-name: Local analyze and test matrix
+name: Run local analyze and test matrix
 
 on:
   workflow_dispatch:

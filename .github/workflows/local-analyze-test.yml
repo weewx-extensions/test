@@ -1,4 +1,4 @@
-name: Local analyze and test
+name: Run local analyze and test
 
 on:
   workflow_dispatch:
