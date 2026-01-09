@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-#    Copyright (c) 2025 Rich Bell <bellrichm@gmail.com>
+#    Copyright (c) 2026 Rich Bell <bellrichm@gmail.com>
 #
 #    See the file LICENSE.txt for your full rights.
 #
