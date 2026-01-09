@@ -10,13 +10,14 @@
 import unittest
 
 import user.tests.helpers
+from user.tests.helpers import random_string
 
 import user.simpleclass
 
 class TestFuncSimpleClass(unittest.TestCase):
     def test_return_first_value(self):
-        first_value = 'foo'
-        second_value = 'bar'
+        first_value = random_string()
+        second_value = random_string
 
         SUT = user.simpleclass.SimpleClass()
 
