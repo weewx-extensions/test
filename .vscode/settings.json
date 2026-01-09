@@ -1,0 +1,8 @@
+{
+    "pylint.enabled": true,
+    "flake8.importStrategy": "fromEnvironment",
+    "python.analysis.extraPaths": [
+        "../weewx/src",
+        "bin"
+    ]
+}
