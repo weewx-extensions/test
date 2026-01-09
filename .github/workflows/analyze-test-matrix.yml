@@ -1,6 +1,8 @@
 name: Run analyze and test matrix
 
 on:
+  push:
+    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:
