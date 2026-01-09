@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Run unit test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/user/tests/unit/test_unit_simpleclass.py",
+            "console": "integratedTerminal",
+            "args": [
+                "TestUnitSimpleClass",
+                "test_return_first_value",
+            ],
+        },
+        {
             "name": "Python Debugger: Current File",
             "type": "debugpy",
             "request": "launch",
