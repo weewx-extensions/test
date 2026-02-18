@@ -10,4 +10,4 @@ jobs:
   fetch:
     uses: weewx-extensions/development-tools/.github/workflows/fetch.yml@master
     with:
-      UPSTREAM_URL: "https://github.com/weewx-extensions/test.git"
+      upstream_url: "https://github.com/weewx-extensions/test.git"
