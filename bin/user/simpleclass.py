@@ -6,6 +6,8 @@
 #
 ''' This module is used to test the development tools.'''
 
+# Update
+
 class SimpleClass:
     ''' This class is used to test the development tools.'''
     def return_first_value(self, first_parameter, _second_parameter):
