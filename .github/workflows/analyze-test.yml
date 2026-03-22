@@ -7,7 +7,7 @@ on:
 
 jobs:
   analyze-test:
-    uses: weewx-extensions/development-tools/.github/workflows/analyze-test.yml@master
+    uses: weewx-extensions/development-tools/.github/workflows/analyze-test.yml@v5
     with:
       module-name: 'simpleclass'
       #pip-list: 'paho-mqtt'
