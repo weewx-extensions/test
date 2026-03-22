@@ -6,7 +6,7 @@
 #
 ''' This module is used to test the development tools.'''
 
-# Update 2
+# Update 3
 
 class SimpleClass:
     ''' This class is used to test the development tools.'''
