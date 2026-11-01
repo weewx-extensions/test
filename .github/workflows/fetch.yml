@@ -8,6 +8,9 @@ on:
 
 jobs:
   fetch:
-    uses: weewx-extensions/development-tools/.github/workflows/fetch.yml@master
+    permissions: write-all
+    uses: weewx-extensions/development-tools/.github/workflows/fetch.yml@v6
     with:
       upstream_url: "https://github.com/weewx-extensions/test.git"
+    secrets:
+      workflow_token: ${{ secrets.GITHUB_TOKEN }}
