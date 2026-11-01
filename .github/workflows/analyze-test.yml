@@ -18,6 +18,8 @@ jobs:
       e2e-test: false
       # There is no Codacy project for this repository.
       codacy-upload: false
+      # The Sonar token is rejected; the scan needs a project.
+      sonar-scan: false
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       CODACY_API_TOKEN: ${{ secrets.CODACY_API_TOKEN }}
